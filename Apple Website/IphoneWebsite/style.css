@@ -1,0 +1,426 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: "Roboto", serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+nav{
+   width:100% ;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+   height: 44px;
+   background-color: rgb(226, 226, 226);
+   gap: 2vw;
+   position: static;
+  
+}
+nav img{
+    width: 50px;   
+    cursor: pointer;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+nav i{
+  font-size: 20px;
+  cursor: pointer;
+}
+.Learn1{
+    width: 100%; 
+    height: 44px;   
+    padding-top: 15px;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.Learn1 a{
+    color: blue;
+    cursor: pointer;
+}
+.herosmaecontainer{
+width: 100;
+height: 692px;
+background-color: white;
+
+
+}
+.herosame{
+    margin: 15px 0;
+    background-image: url(./images/hero1.jpg);
+    background-position: center;
+    object-fit:cover ;      
+    height: 100%;
+    background-repeat: no-repeat;    
+}
+.herosame h1{
+    color: white;
+    font-weight: bold;
+    font-size: 4vw;
+}
+.herosame h4{
+    color: white;
+    font-size: 2vw;
+}
+.herosamecontent{
+    width:100% ;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top:2vw ;
+}
+.herosamebtn{
+padding-top: 1.5vw;
+display: flex;
+gap: 2vw;
+}
+.herosamebtn button{
+    padding: 1vw 2vw;
+    border: 1px solid #0077ED;
+    border-radius:50px;
+    font-size: 1vw;
+}
+.btnblue{
+    background-color: #0077ED;
+    color: white;
+    cursor: pointer;
+}
+.btntransperent{
+    background-color: transparent;
+    color: #0077ED;
+    cursor: pointer;
+}
+.btntransperent:hover{
+    background-color: #0077ED;
+    color: white;
+}
+
+#hero2{
+    background-image: url(.//images/hero2.jpg);
+    object-fit: cover;
+}
+#hero2 .btnblue{
+    background-color: white;
+    color: black;
+    border: white;
+}
+#hero2 .btntransperent{
+border-color: white;
+color: white;
+}
+#hero2 .btntransperent:hover{
+    background-color:white;
+    color: black;
+}
+#hero3{
+    background-image:url(./images/hero3.jpg) ;
+}
+#hero3 h1{
+color: black;
+}
+#hero3 h4{
+    color: black;
+    }
+
+.columnstartcontainer{
+    width: 50%;
+    height: 600px;
+}
+
+.startcolumn{
+width: 100%;
+display: flex;
+height: 600px;
+
+}
+
+    .herocolumn{
+        margin:15px 15px ;
+        background-image:url(./images/herocolumn.jpg) ;
+        background-position: center;
+        height: 580px;
+        
+    }
+    .herocolumn2{
+        margin:15px 15px ;
+        background-image:url(./images/herocolumn2.jpg) ;
+        background-position: center;
+        height: 560px;
+      
+    }
+    .herocolumn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .columnwords{
+        margin-top: 2vw;
+        text-align: center;
+    }
+
+    .herocolumnbtn{
+        margin-top: 1vw;
+        display: flex;
+        justify-content: center;
+        gap: 1vw;
+    }
+.btnblue1{
+width: 104px;
+height: 36px;
+border-radius:50px ;
+background-color: #0077ED;
+border: 1px solid #0077ED; 
+color: white;
+    }
+        
+.btntransperent2{
+width: 64px;
+height: 36px;
+border-radius: 50px;
+background-color: transparent;
+border: 1px solid #0077ED;
+color: #0077ED;
+}
+
+.btntransperent2:hover{
+    background-color: #0077ED;
+    background-color: #0077ED;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.AAA h1{
+font-size: 50px;
+color: aliceblue;
+}
+
+.AAA h4 ,sup{
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.BBB img{
+    width: 100px;
+
+}
+
+.one1{
+display: flex;
+justify-content: center;
+
+}
+
+
+.one1 h1{
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    right: 20px;
+    font-size: 40px;
+}
+
+.columnwords h4{
+margin-top: .5vw;
+font-size: 25px;
+}
+
+.containernext{
+    width: 100%;
+    height: 580px;
+    border: 1px solid black;
+        border: none;
+        display: flex;
+        justify-content: center;
+}
+.containerunder{
+    border: 1px solid black;
+    border: none;
+    width: 50%;
+    height: 575px;
+}
+
+.imagecontainer{
+    border: 1px solid black;
+    border: none;    
+background-image: url(./images/herocolumn6.jpg);
+object-fit: cover;
+background-position: center;
+overflow: hidden;
+height: 100%;
+margin: 5px 10px;
+background-repeat: no-repeat;
+}
+
+.heroA{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vw;
+    border: 1px solid black;
+    border: none;
+    width: 30%;
+}
+
+.heroA img{
+    display: flex;
+    width: 90px;
+}
+
+.heroA h1{
+    font-size: 40px;
+    display: flex;
+}
+
+.heroA p{
+    margin-top:1vh ;
+    font-size: 20px;
+    text-align: center;
+} 
+
+.btn12{
+width: 100%;
+display: flex;
+justify-content: center;
+margin-top:1vw ;
+}
+
+.btn12 button{
+    width: 145px;
+    height: 36px;
+    border-radius: 50px;
+    border: 1px solid #0077ED;
+    background-color: #0077ED;
+    color: aliceblue;
+} 
+
+#change{
+    background-image: url(./images/promo_apple_card.jpg);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    background-position: center;
+}
+
+.heroB{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vw;
+    border: 1px solid black;
+    border: none;
+    width: 30%;
+}
+
+.heroB img{
+    display: flex;
+    width: 90px;
+}
+
+.heroB h1{
+    font-size: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.heroB p{
+    margin-top:1vh ;
+    font-size: 20px;
+    text-align: center;
+} 
+
+.btn12{
+    display: flex;
+    gap: 1vw;
+}
+
+.btntrns:hover{
+    background-color: transparent;
+    border: 1px solid #0077ED;
+    color: #0077ED;
+}
+
+
+.image112{
+    margin-top: 2vw;
+    background-image: url(./images/Shrinking.jpg);
+    width: 100%;
+    height: 667px;
+    object-fit: cover;
+    overflow: hidden;
+    background-position: center;
+}
+
+.bigcontainer{
+    width: 100%;
+}
+
+.smallcontainer{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vw;
+}
+
+.smallcontainer p{
+    color: #5e5e5f;
+font-size: 15px;
+}
+
+.smallcontainer a{
+font-size: 15px;
+color: #313131;
+text-decoration: underline;
+}
+
+.footercontainer{
+    width: 100%;
+    margin-top: 1vw;
+    border: 1px solid black;
+    border: none;
+}
+
+.footerchild{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border: none;
+}
+
+.listcol1{
+    border: 1px solid black;
+    width: 196px;
+    font-size: 12px;
+    border: none;
+}
+
+.listcol1 li{
+    display: flex;
+    padding-top: 10px;
+}
+
+.listcol2{
+    border: 1px solid black;
+    border: none;
+    width: 196px;
+    font-size: 12px;
+}
+
+.listcol2 li{
+    display: flex;
+    padding-top: 15px;
+}
