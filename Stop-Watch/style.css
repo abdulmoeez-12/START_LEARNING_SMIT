@@ -1,0 +1,105 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 30px 50px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+      margin-bottom: 30px;
+    }
+
+    .container div {
+      text-align: center;
+    }
+
+    .container h1 {
+      font-size: 4rem;
+      color: #ffffff;
+    }
+
+    .container p {
+      font-size: 1rem;
+      color: #dcdcdc;
+      margin-top: 5px;
+    }
+
+    section:last-of-type {
+      display: flex;
+      gap: 20px;
+    }
+
+    button {
+      padding: 12px 24px;
+      font-size: 1rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      color: white;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    }
+
+    button:hover {
+      transform: translateY(-3px);
+      background: linear-gradient(135deg, #0072ff, #00c6ff);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
+    button:active {
+      transform: scale(0.98);
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .container h1 {
+        font-size: 3rem;
+      }
+
+      section:last-of-type {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+      }
+
+      button {
+        width: 80%;
+      }
+    }

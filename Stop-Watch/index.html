@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <title>StopWatch</title>
+</head>
+
+<body>
+    <h1>Stop Watch</h1>
+
+    <section class="container">
+        <div>
+            <h1 id="minHeading">00</h1>
+            <p>Min</p>
+        </div>
+        <div>
+            <h1 id="secHeading">00</h1>
+            <p>Sec</p>
+        </div>
+        <div>
+            <h1 id="msecHeading">00</h1>
+            <p>MSec</p>
+        </div>
+    </section>
+
+    <section>
+        <button onclick="startwatch()" id="startBtn">Start</button>
+        <button onclick="stopwatch()">Stop</button>
+        <button onclick="resetTimer()">Reset</button>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

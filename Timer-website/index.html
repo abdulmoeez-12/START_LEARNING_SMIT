@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="timer-container">
+    <div class="heading">Set Your Timer</div> <!-- 👈 Main Heading -->
+    <div class="title">Timer</div> <!-- 👈 Subheading or Title -->
+
+    <div class="input-group">
+      <div>
+        <input type="number" placeholder="00" id="Hours">
+        <label>Hours</label>
+      </div>
+      <div>
+        <input type="number" placeholder="00" id="Minutes">
+        <label>Minutes</label>
+      </div>
+      <div>
+        <input type="number" placeholder="00" id="Seconds">
+        <label>Seconds</label>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button onclick="startTimer()">Start</button>
+      <button onclick="stopTimer()">Pause</button>
+      <button onclick="resetTimer()" >Reset</button>
+    </div>
+  </div>
+<script src="app.js"></script>
+
+</body>
+</html>

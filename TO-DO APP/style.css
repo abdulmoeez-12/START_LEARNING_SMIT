@@ -1,0 +1,129 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #f8f9fa, #e0eafc);
+  min-height: 100vh;
+}
+
+.card {
+  background: #ffffff;
+  border: none;
+}
+
+input::placeholder {
+  color: #adb5bd;
+}
+
+ul li {
+  background: #f1f3f5;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 12px;
+  font-size: 18px;
+  position: relative;
+  list-style: none;
+}
+
+ul li::before {
+  content: "📝";
+  margin-right: 10px;
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.editbtn, .deletebtn, .completeBtn {
+  margin: 0 8px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Edit Button */
+.editbtn {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.editbtn:hover {
+  background-color: #e0a800;
+  color: white;
+}
+
+/* Delete Button */
+.deletebtn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.deletebtn:hover {
+  background-color: #b02a37;
+}
+
+/* Complete Button */
+.completeBtn {
+  background-color: #198754;
+  color: white;
+  border: none;
+}
+
+.completeBtn:hover {
+  background-color: #146c43;
+}
+
+.inline {
+  text-decoration: line-through;
+  color: #6c757d; /* Stylish grey color */
+  opacity: 0.7;
+  font-style: italic;
+  transition: all 0.3s ease;
+}
+
+.custom-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* icon aur text ka gap */
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add Button */
+.add-btn {
+  background-color: #00db33; /* Green */
+}
+
+.add-btn:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(40, 167, 69, 0.4);
+}
+
+/* Delete Button */
+.delete-btn {
+  background-color: #dc3545; /* Red */
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(220, 53, 69, 0.4);
+}
+
+/* Pressed effect */
+.custom-btn:active {
+  transform: scale(0.95);
+}
